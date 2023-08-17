@@ -112,7 +112,7 @@ const CONFIG = {
 			id: '4',
 			name: '?',
 			icon: 'venetian-mask',
-			link: 'https://cs.rin.ru',
+			link: 'https://r-roms.github.io/megathread/popular/',
 		},
 		{
 			id: '5',

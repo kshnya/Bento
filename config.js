@@ -17,10 +17,10 @@ const CONFIG = {
 	twelveHourFormat: false,
 
 	// Greetings
-	greetingMorning: 'Good morning!',
-	greetingAfternoon: 'Good afternoon,',
-	greetingEvening: 'Good evening,',
-	greetingNight: 'Go to Sleep!',
+	greetingMorning: 'Wake Up',
+	greetingAfternoon: 'Late Wake Up',
+	greetingEvening: 'What Time Is It',
+	greetingNight: 'Dont Sleep',
 
 	// Layout
 	bentoLayout: 'buttons', // 'bento', 'lists', 'buttons'
@@ -31,7 +31,7 @@ const CONFIG = {
 	weatherUnit: 'F', // 'F', 'C'
 	language: 'en', // More languages in https://openweathermap.org/current#multi
 
-	trackLocation: true, // If false or an error occurs, the app will use the lat/lon below
+	trackLocation: false, // If false or an error occurs, the app will use the lat/lon below
 	defaultLatitude: '0',
 	defaultLongitude: '0',
 
@@ -92,9 +92,9 @@ const CONFIG = {
 	secondButtonsContainer: [
 		{
 			id: '1',
-			name: 'Youtube',
+			name: 'Piped',
 			icon: 'youtube',
-			link: 'https://www.youtube.com/',
+			link: 'https://piped.video',
 		},
 		{
 			id: '2',
@@ -122,7 +122,7 @@ const CONFIG = {
 		},
 		{
 			id: '6',
-			name: 'Figma',
+			name: 'Mastodon',
 			icon: 'figma',
 			link: 'https://figma.com/',
 		},
